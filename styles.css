@@ -1,0 +1,294 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #b3c8df;
+    color: white;
+    padding: 10px 20px;
+    font-weight: bold;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#skip-text{
+    background-color: #b3c8df;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    height: 60px;
+}
+
+.accessibility-links {
+    display: flex;
+    align-items: center;
+}
+
+.accessibility-links a {
+    color: white;
+    margin: 0 5px;
+    text-decoration: none;
+}
+
+.accessibility-links a img {
+    width: 30px;
+}
+
+.search-bar {
+    display: flex;
+    align-items: center;
+}
+
+.search-bar input {
+    padding: 5px;
+}
+
+.search-bar button {
+    padding: 5px 10px;
+    background-color: #ff6600;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+#go-logo img{
+    width: 65%;
+    height: 55px;
+}
+.search-bar button:hover {
+    background-color: #cc5200;
+}
+
+nav {
+    text-align: center;
+    background-color: #006699;
+    color: white;
+  
+}
+
+nav a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+
+.carousel {
+    position: relative;
+    width: 100%;
+    max-width: 100%;
+    margin: 20px auto;
+    overflow: hidden;
+}
+
+.carousel-item {
+    display: none;
+    text-align: center;
+}
+
+.carousel-item img {
+    width: 100%;
+    height: auto;
+}
+
+.carousel-item.active {
+    display: block;
+}
+
+.carousel-control {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+    padding: 10px;
+}
+
+.carousel-control.prev {
+    left: 10px;
+}
+
+.carousel-control.next {
+    right: 10px;
+}
+
+.cards, .image-cards {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+}
+
+.card, .image-card {
+    flex: 1;
+    margin: 10px;
+    padding: 20px;
+    background-color: #f2f2f2;
+    text-align: center;
+}
+
+.image-card img {
+    width: 100%;
+    height: auto;
+}
+
+
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #006699;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #0e3963;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.Portal #background-img{
+    display: block;
+    width: 100%;
+    height: 200px;
+    cursor: pointer;
+    opacity: 50%;
+}
+.Portal{
+  
+    position: relative;
+    text-align: center;
+   
+}
+#graduates{
+    position: absolute;
+    top: 110px;
+    left: 12.5%;
+
+}
+#student-web-link{
+    position: absolute;
+    top: 110px;
+    right: 12.5%;
+}
+  
+#student-web-link > img{
+    width: 70px;
+    height: 50px;
+}
+#graduates > img{
+    width: 70px;
+    height: 50px;
+
+}
+
+#play-icon {
+    position: absolute;
+  
+    top: 110px;
+
+   
+ 
+}
+#play-icon > img{
+    width: 50px;
+    height: 50px;
+    background-color: transparent;
+}
+.Portal #alumni, .Portal #life-at-iim, .Portal #stdents-web {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: absolute;
+    color: rgb(53, 49, 49);
+    
+    border-radius: 40;
+}
+.Portal #alumni{
+    
+
+    top: 35px;
+    left: 150px;
+
+}
+.Portal #life-at-iim{
+    top: 35px;
+    left: 50%;
+   transform: translateX(-50%);
+}
+.Portal #stdents-web{
+    top: 35px;
+    right: 150px;
+}
+.Portal span{
+    position: absolute;
+    top: -102px;
+    right: 400px;
+    font-size: 30vh;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.students-Port1  h3 {
+    border: 1px solid #333;
+    padding: 5px;
+}
+.students-Port2 h3{
+   
+    border: 1px solid #333;
+    padding: 5px;
+}
+.students-Port3 h3{
+    border: 1px solid #333;
+    padding: 5px;
+}
+footer {
+  
+    background-color: #003366;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+  
+    width: 100%;
+
+}
+footer img{
+    width: 150px;
+    height: 50px;
+}
+     
+.footer-bottom{
+            display: grid;
+            grid-template-columns: repeat(3, auto);
+            justify-content: center; 
+            gap: 50px;
+}
